@@ -1,0 +1,104 @@
+/* Colors & Fonts */
+body {
+    background-color: #FFD0EB;
+    color: rgb(50, 50, 50);
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.container {
+    width: 900px; 
+    margin: 40px auto; 
+}
+
+.card-white {
+    background-color: ghostwhite;
+    border-radius: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.img-circle {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px; 
+}
+
+h1, h2 {
+    font-family: "DM Serif Text", serif;
+}
+
+h1 {
+    color: #FF7EE2;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #1F2544;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a {
+    font-family: "DM Serif Text", serif;
+    text-decoration: none;
+    color: hotpink;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+a:hover {
+    color: darkred;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 40px; 
+    background-color: hotpink;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px; 
+}
+
+.list-inline {
+    list-style: none; 
+    padding-left: 0px; 
+}
+
+.list-inline li {
+    display: inline; 
+    padding: 30px; 
+}
+.list-inline i {
+    font-size: 40px;
+    color: rgb(230, 230);
+
+@media (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
